@@ -24,6 +24,7 @@ export async function action({ request }) {
         password: data.get('password')
     };
 
+    // The request is made based on the mode (login or signup).
     const response = await fetch('http://localhost:8080/' + mode, {
         method: 'POST',
         headers: {
@@ -42,7 +43,13 @@ export async function action({ request }) {
         throw json({ message: 'Could not authenticate user' }, { status: 500 });
     }
 
-    // SOON: manage that token
+    // Manage (extract) the token data from the back-end
+    const resData = await response.json();
+    const token = resData.token;
+
+    // Store the token in the local storage
+    localStorage.setItem('token', token);
+
     // Once we are logged in, we are redirected to the home page
     return redirect('/');
 }
