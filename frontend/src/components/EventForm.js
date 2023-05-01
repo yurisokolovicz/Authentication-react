@@ -7,7 +7,7 @@ import {
   redirect
 } from 'react-router-dom';
 
-import classes from './EventForm.module.css';
+import styles from './EventForm.module.css';
 
 function EventForm({ method, event }) {
   const data = useActionData();
@@ -21,7 +21,7 @@ function EventForm({ method, event }) {
   }
 
   return (
-    <Form method={method} className={classes.form}>
+    <Form method={method} className={styles.form}>
       {data && data.errors && (
         <ul>
           {Object.values(data.errors).map((err) => (
@@ -69,7 +69,7 @@ function EventForm({ method, event }) {
           defaultValue={event ? event.description : ''}
         />
       </p>
-      <div className={classes.actions}>
+      <div className={styles.actions}>
         <button type="button" onClick={cancelHandler} disabled={isSubmitting}>
           Cancel
         </button>
