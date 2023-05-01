@@ -1,12 +1,26 @@
 {
-  "events": [
-    {
-      "title": "A new event",
-      "image": "https://cdn.muenchen-p.de/fl_progressive,q_65/.imaging/stk/responsive/teaser300/dms/va-2016/muenchner-christkindlmarkt/christkindlmarkt-marienplat-logo-hp/document/christkindlmarkt-marienplat-logo-hp.jpg",
-      "date": "2022-10-01",
-      "description": "Some awesome event!",
-      "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a9"
-    }
-  ],
-  "users": []
+    "events": [
+        {
+            "title": "Models carrer discussion",
+            "image": "https://www.treebo.com/blog/wp-content/uploads/2018/02/Wasted-Ladies-Nights-at-Sanctum-Club.jpg",
+            "date": "2023-10-01",
+            "description": "Modeling is a career path that involves posing for photographs or displaying clothing and accessories for designers and brands. While many people see modeling as a glamorous profession, it requires hard work, dedication, and a range of skills to succeed in the industry",
+            "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a1"
+        },
+        {
+            "title": "Paradise Island",
+            "image": "https://as2.ftcdn.net/v2/jpg/02/06/57/65/1000_F_206576504_VZIZ6AMuDxu0KMCpT8oIo3Y0b1OsL8og.jpg",
+            "date": "2023-11-10",
+            "description": "Paradise Island is a stunning destination that boasts crystal-clear waters, soft sandy beaches, and lush tropical foliage. But what truly sets it apart from other beautiful locations is the strikingly beautiful people that inhabit it. Everywhere you turn, you are met with gorgeous individuals with sun-kissed skin, sparkling eyes, and radiant smiles. Their natural beauty is complemented by their friendly and warm personalities, making the experience of being on Paradise Island all the more enjoyable. Whether you're lounging on the beach or exploring the island's many attractions, you'll be surrounded by stunning people that are sure to make your trip unforgettable.",
+            "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a2"
+        },
+        {
+            "title": "Night Pink",
+            "image": "https://www.avpartners.com/wp-content/uploads/2018/06/shutterstock_167745380-Copy.jpg",
+            "date": "2023-70-09",
+            "description": "Amazing Pink Club is an entertainment venue that offers a unique and exciting nightlife experience. The club is designed to cater to a wide range of customers, from party-goers to music lovers, and provides an atmosphere that is both fun and sophisticated. The club boasts a state-of-the-art sound system and lighting that enhances the ambiance and creates an energetic atmosphere.",
+            "id": "2a42fcc4-ea21-4bdd-abf6-c40006dc66a3"
+        }
+    ],
+    "users": []
 }
