@@ -19,5 +19,7 @@ export function checkAuthLoader() {
     if (!token) {
         return redirect('/auth');
     }
+
+    return null;
 }
 // We are using hte checkAuthLoader to protect the user to access the routes without being authenticated. For example, without this protection, the user can access the /events/new route without being authenticated. The protection is used in App.js importing checkAuthLoader and using it as loader.
