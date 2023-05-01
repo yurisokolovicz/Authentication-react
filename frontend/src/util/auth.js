@@ -4,4 +4,9 @@ const getAuthToken = () => {
 
     return token;
 };
+
+export function tokenLoader() {
+    return getAuthToken();
+}
+
 export default getAuthToken;
