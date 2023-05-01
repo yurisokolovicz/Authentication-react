@@ -1,4 +1,4 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Form } from 'react-router-dom';
 
 import styles from './MainNavigation.module.css';
 import NewsletterSignup from './NewsletterSignup';
@@ -28,6 +28,11 @@ function MainNavigation() {
                             Authentication
                         </NavLink>
                     </li>
+                    <li>
+                        <Form action="/logout" method="post">
+                            <button>Logout</button>
+                        </Form>
+                    </li>
                 </ul>
             </nav>
             <NewsletterSignup />
@@ -36,3 +41,5 @@ function MainNavigation() {
 }
 
 export default MainNavigation;
+
+// the logout button should trigger a logout action that deletes the token.
