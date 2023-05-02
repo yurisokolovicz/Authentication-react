@@ -49,6 +49,12 @@ export async function action({ request }) {
 
     // Store the token in the local storage
     localStorage.setItem('token', token);
+    // We also should store the expiration date of the token in the local storage
+    // The code below create a date that is 1 h in the future
+    const expiration = new Date();
+    expiration.setHours(expiration.getHours() + 1);
+    // now we are storing the expiration date as string in the local storage
+    localStorage.setItem('expiration', expiration.toISOString());
 
     // Once we are logged in, we are redirected to the home page
     return redirect('/');
